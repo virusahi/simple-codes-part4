@@ -4,7 +4,7 @@ int main() {
 
   int n, reverse = 0, remainder;
 
-  printf("Enter an integer: ");
+  printf(" you have to enter nay integer integer: ");
 
   scanf("%d", &n);
 
