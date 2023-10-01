@@ -1,6 +1,6 @@
 # Python Program to convert temperature in celsius to fahrenheit
 
-# change this value for a different result
+# change value for a different result
 celsius = 37.5
 
 # calculate fahrenheit
