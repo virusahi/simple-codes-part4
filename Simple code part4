@@ -18,7 +18,7 @@ int main() {
 
   }
 
-  printf("Reversed number = %d", reverse);
+  printf("Reversed number is = %d", reverse);
 
   return 0;
 avsbdbdjdjje
