@@ -10,4 +10,4 @@ elif operator == '/':
 elif operator == '*':
     print(x*y)
 else:
-    print("Operator is not supported")
+    print("Operator is not and error supported")
