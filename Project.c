@@ -74,25 +74,25 @@ int main() {
             celciusToFahrenheit = ((9.0/5.0)*userinputC + 32);
             printf("Fahrenheit: %d",celciusToFahrenheit);
         }
-        if(tempChoice == 3){
+        else if(tempChoice == 3){
             printf("Please enter the Kelvin degree: \n");
             scanf("%d",&userinputK);
             kelvinToCelcius =  userinputK - 273.15;
             printf("Celcius: %d",kelvinToCelcius);
         }
-        if(tempChoice == 4){
+        else if(tempChoice == 4){
             printf("Please enter the Celcius degree: \n");
             scanf("%d",&userinputC);
             celciusToKelvin =  userinputC + 273.15;
             printf("Kelvin: %d",celciusToKelvin);
         }
-        if(tempChoice == 5){
+        else if(tempChoice == 5){
             printf("Please enter the Kelvin degree: \n");
             scanf("%d",&userinputK);
             kelvinToFahrenheit =  ((userinputK - 273.15)*1.8)+32;
             printf("Farhenheit: %d",kelvinToFahrenheit);
         }
-        if(tempChoice == 6){
+        else if(tempChoice == 6){
             printf("Please enter the Fahrenheit degree: \n");
             scanf("%d",&userinputF);
             fahrenheitToKelvin =  ((userinputF - 32)/1.8)+273.15;
@@ -118,7 +118,7 @@ int main() {
             USDtoEURO = userinputUSDtoEuro * 0.90;
             printf("Euro: %.2f",USDtoEURO);
         }
-        if(currencyChoice == 2){
+        else if(currencyChoice == 2){
             printf("Please enter the EURO amount: \n");
             scanf("%d",&userinputEurotoUSD);
             EurotoUSD = userinputEurotoUSD / 0.90;
@@ -182,7 +182,7 @@ int main() {
             gramsToPounds = userinputGram * 0.00220462;
             printf("Pounds: %.2f",gramsToPounds);
         }
-        if(massChoice == 3){
+        else if(massChoice == 3){
             printf("Please enter the grams amount: \n");
             scanf("%d",&userinputGram);
             gramsToKilograms = userinputGram / 1000;
@@ -210,19 +210,19 @@ int main() {
             metrestocentimetres =  userinputMetres*100;
             printf("Centimetres: %d",metrestocentimetres);
         }
-        if(lengthChoice == 2){
+        else if(lengthChoice == 2){
             printf("Please enter the length in Centimetres: \n");
             scanf("%d",&userinputCentimetres);
             centimetrestoMetres =  userinputCentimetres/100;
             printf("Metres: %.2f",centimetrestoMetres);
         }
-        if(lengthChoice == 3){
+        else if(lengthChoice == 3){
             printf("Please enter the length in Kilometres: \n");
             scanf("%d",&userinputKilometres);
             KilometrestoMetres =  userinputKilometres*100;
             printf("Metres: %d",KilometrestoMetres);
         }
-        if(lengthChoice == 4){
+        else if(lengthChoice == 4){
             printf("Please enter the length in Metres: \n");
             scanf("%d",&userinputMetres);
             metrestoKilometres =  userinputMetres/100;
