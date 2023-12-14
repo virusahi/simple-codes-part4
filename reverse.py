@@ -1,6 +1,6 @@
 
 lst = [10, 11, 12, 13, 14, 15]
-# the above input can also be given as
+# the input can also be given as
 # lst=list(map(int,input().split()))
 l = [] # empty list
 
