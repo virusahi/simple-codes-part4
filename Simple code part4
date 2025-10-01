@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//these are c language codes 
 int main() {
 
   int n, reverse = 0, remainder;
