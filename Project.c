@@ -27,7 +27,7 @@ int main() {
     int metrestoKilometres;// variable that stores the converted m->km;
     int centimetrestoMetres;// variable that stores the converted cm->m;
     int KilometrestoMetres;// variable that stores the converted km->m;
-    int fahrenheitToCelcius; // variable that stores the converted F->C;
+    int fahrenheitToCelcius; // variable stores the converted F->C;
     int celciusToFahrenheit; // variable that stores the converted C->F;
     int kelvinToCelcius; // variable that stores the converted K->C;
     int celciusToKelvin; // variable that stores the converted C->K;
